@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+   
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+   <link rel="icon" href="{% static 'images/pahe.png' %}">   
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script> 
+    
+    <style>
+        img{
+            width: 300px;
+            height:200px;
+        }
+        h1{ width: font-size :50px;
+             text-align: center;
+            color: aqua;
+            background-color: yellowgreen;
+            line-height: 90px;
+            
+        }
+     h1:hover
+     {background-color: #bc14e1
+     }
+     
+    </style>
+</head>
+<body>
+
+<h1>Homepage</h1>
+<a class="btn btn-primary"  href="{% url 'about' %}">About</a>
+<a  class="btn btn-outline-info" href="{% url 'form' %}">Form</a>
+
+ 
+          
+
+<p>2027  draw gives Wales pool of death
+providing a unique scenario with a full two years of international...
+How Does A Pool Work?
+All pools have the same main components that keep the water moving and clean – a pump, filter, drains and skimmer, return lines and vacuum. Each of these components come in different types and models that vary based on the pool's size, location and owner preference.
+</p>
+
+<img src="{% static 'images/pool6.jpeg'%}" alt="">
+<img src="{% static 'images/pool5.jpeg'%}" alt="">
+<img src="{% static 'images/pool1.jpeg'%}" alt="">
+<img src="{% static 'images/pool3.jpeg'%}" alt="">
+<img src="{% static 'images/pool.jpeg'%}" alt="">
+<img src="{% static 'images/pool4.jpeg'%}" alt="">
+
+<br><br>
+
+<h1 class="heading2">Services</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur beatae deserunt ea, ipsa iste laborum odio perferendis quod ratione repellat saepe suscipit velit.</span> </p>
+<img class="myimages" src="{% static 'images/pool9.jpeg' %}" alt="">
+
+
+</body>
+</html>

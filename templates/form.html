@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head class="bg-warning">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PATIENTS RECORDS</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <form action="" class="bg-info mb-5">
+        <legend>PATIENT RECORDS</legend>
+        <p>Download Bootstrap to get the compiled CSS and JavaScript, source code, </p>
+        <center><img src="{% static 'images/hos.png' %}" alt=""></center>
+       <link rel="stylesheet" href="{% static 'style.css' %}">
+   <link rel="icon" href="{% static 'images/hn.jpeg' %}"> 
+        <div class="form-floating mt-3 mb-5" >
+            <input type="text " placeholder="Enter Firstname" class="form-control" id="fname" required="required">
+            <label for="fname">Firstname</label>
+            
+            
+        </div>
+         <div class="form-floating  mb-5 p-5" >
+            <input type="text " placeholder="Enter Lastname" class="form-control" id="lname" required="required">
+            <label for="lname">Lastname</label>
+            
+            
+        </div>
+         <div class="form-floating  mb-5" >
+            <input type="email " placeholder="Enter email" class="form-control" id="email" required="required">
+            <label for="email">Email address</label>
+            
+            
+        </div>
+        <div class="form-floating  mb-5" >
+            <input type="pass " placeholder="Enter password" class="form-control" id="pass" required="required">
+            <label for="pass">Password</label>
+            
+        </div>
+        
+         </div>
+        <div class="d-grid" >
+            <button class="btn btn-outline-primary-dark">Create account</button>
+        </div> 
+            
+       
+    </form>
+
+    <style>
+        legend{ font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+      }
+        
+    </style>
+</head>
+<body>
+
+</body>
+</html>
